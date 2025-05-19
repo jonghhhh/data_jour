@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>이종혁 교수 - 경희대 미디어학과</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>이종혁 교수</h1>
+        <h2>경희대학교 미디어학과</h2>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">홈</a></li>
+                <li><a href="research.html">연구</a></li>
+                <li><a href="teaching.html">교육</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="profile">
+            <img src="https://via.placeholder.com/180x220.png?text=Profile+Photo" alt="이종혁 교수 사진" class="profile-img">
+            <div class="profile-info">
+                <h3>프로필</h3>
+                <ul>
+                    <li><strong>소속:</strong> 경희대학교 미디어학과 교수</li>
+                    <li><strong>연구분야:</strong> 미디어 이론, 디지털 커뮤니케이션, 미디어 교육</li>
+                    <li><strong>이메일:</strong> jonghyuk@khu.ac.kr</li>
+                </ul>
+            </div>
+        </section>
+        <section class="about">
+            <h3>소개</h3>
+            <p>
+                이종혁 교수는 경희대학교 미디어학과에서 미디어 이론과 디지털 커뮤니케이션, 미디어 교육을 연구하고 있습니다.
+                다양한 학술 활동과 연구를 통해 미디어 환경 변화에 따른 사회적 영향과 교육적 역할을 탐구하고 있습니다.
+            </p>
+        </section>
+        <section class="board">
+            <h3>게시판</h3>
+            <div id="board-container">
+                <form id="board-form">
+                    <input type="text" id="board-name" placeholder="이름" required>
+                    <input type="text" id="board-title" placeholder="제목" required>
+                    <textarea id="board-content" placeholder="내용" required></textarea>
+                    <button type="submit">글쓰기</button>
+                </form>
+                <ul id="board-list"></ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 경희대학교 미디어학과 이종혁 교수</p>
+    </footer>
+    <script src="board.js"></script>
+</body>
+</html>
